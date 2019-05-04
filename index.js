@@ -55,7 +55,7 @@ function makeSound(key) {
       drumSound.src = "sounds/kick-bass.mp3";
       break;
     default:
-      alert("invalid drum key!");
+      console.log("invalid drum key!");
 
   }
 
